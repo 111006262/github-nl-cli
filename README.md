@@ -1093,7 +1093,7 @@ OLLAMA_MODEL_2=mistral:7b
 
 I used Gemini as the closed-source model and Qwen/Mistral as local open-weight models. I switched Gemini from `gemini-2.5-flash` to `gemini-2.5-flash-lite` when quota and cost became a concern.
 
-My `.env` file is pushed to GitHub. The `.gitignore` file includes the following:
+My `.env` file is not pushed to GitHub. The `.gitignore` file includes the following:
 
 ```gitignore
 .env
