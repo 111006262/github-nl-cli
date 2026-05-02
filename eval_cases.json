@@ -1,0 +1,302 @@
+[
+  {
+    "id": "case_01",
+    "input": "Find the top 5 Python repositories about machine learning",
+    "ground_truth": {
+      "q": "machine learning language:Python",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "5"
+    }
+  },
+  {
+    "id": "case_02",
+    "input": "Show me JavaScript repositories about React with more than 1000 stars",
+    "ground_truth": {
+      "q": "react language:JavaScript stars:>1000",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_03",
+    "input": "Find Rust blockchain projects created after 2021",
+    "ground_truth": {
+      "q": "blockchain language:Rust created:>2021-12-31",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_04",
+    "input": "Show me the newest TypeScript repositories about chatbots",
+    "ground_truth": {
+      "q": "chatbots language:TypeScript",
+      "sort": "created",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_05",
+    "input": "Find repositories about computer vision updated this year",
+    "ground_truth": {
+      "q": "computer vision pushed:>2026-01-01",
+      "sort": "updated",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_06",
+    "input": "Find pyton repos about machien lerning",
+    "ground_truth": {
+      "q": "machine learning language:Python",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_07",
+    "input": "找出關於機器學習的 Python 專案",
+    "ground_truth": {
+      "q": "machine learning language:Python",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_08",
+    "input": "Find AI repositories but not machine learning",
+    "ground_truth": {
+      "q": "ai -machine-learning",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_09",
+    "input": "Find repositories about deep learning with MIT license",
+    "ground_truth": {
+      "q": "deep learning license:mit",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_10",
+    "input": "Find top 200 Python repositories about data science",
+    "ground_truth": {
+      "q": "data science language:Python",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "100"
+    }
+  },
+  {
+    "id": "case_11",
+    "input": "Find Go repositories about web servers",
+    "ground_truth": {
+      "q": "web servers language:Go",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_12",
+    "input": "Find C++ repositories about game engines with more than 500 stars",
+    "ground_truth": {
+      "q": "game engines language:C++ stars:>500",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_13",
+    "input": "Show me the most forked Python repositories about web scraping",
+    "ground_truth": {
+      "q": "web scraping language:Python",
+      "sort": "forks",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_14",
+    "input": "Find Ruby repositories about rails created before 2020",
+    "ground_truth": {
+      "q": "rails language:Ruby created:<2020-01-01",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_15",
+    "input": "Find Kotlin repositories about Android with Apache license",
+    "ground_truth": {
+      "q": "android language:Kotlin license:apache-2.0",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_16",
+    "input": "Find repositories about natural language processing without tensorflow",
+    "ground_truth": {
+      "q": "natural language processing -tensorflow",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_17",
+    "input": "Give me first 3 Swift repositories about iOS animations",
+    "ground_truth": {
+      "q": "ios animations language:Swift",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "3"
+    }
+  },
+  {
+    "id": "case_18",
+    "input": "Search TypeScript projects about dashboards with at least 800 stars",
+    "ground_truth": {
+      "q": "dashboards language:TypeScript stars:>800",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_19",
+    "input": "Find newest Rust repositories about operating systems",
+    "ground_truth": {
+      "q": "operating systems language:Rust",
+      "sort": "created",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_20",
+    "input": "Find repositories about reinforcement learning created after 2022 with more than 300 stars",
+    "ground_truth": {
+      "q": "reinforcement learning stars:>300 created:>2022-12-31",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_21",
+    "input": "Find PHP repositories about ecommerce under 1000 stars",
+    "ground_truth": {
+      "q": "ecommerce language:PHP stars:<1000",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_22",
+    "input": "Find Java repositories about spring boot updated this year",
+    "ground_truth": {
+      "q": "spring boot language:Java pushed:>2026-01-01",
+      "sort": "updated",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_23",
+    "input": "Find Dart repositories about flutter maps with BSD license",
+    "ground_truth": {
+      "q": "flutter maps language:Dart license:bsd",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_24",
+    "input": "Find Shell repositories about backup scripts",
+    "ground_truth": {
+      "q": "backup scripts language:Shell",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_25",
+    "input": "Find repositories about artificial intelligence created last year",
+    "ground_truth": {
+      "q": "artificial intelligence created:>2025-01-01 created:<2025-12-31",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_26",
+    "input": "Show me top ten Julia repositories about optimization",
+    "ground_truth": {
+      "q": "optimization language:Julia",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_27",
+    "input": "Find JavaScript repositories about Vue not React",
+    "ground_truth": {
+      "q": "vue language:JavaScript -react",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_28",
+    "input": "Find Python repositories about medical imaging with more than 200 stars created after 2020",
+    "ground_truth": {
+      "q": "medical imaging language:Python stars:>200 created:>2020-12-31",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_29",
+    "input": "Search for R repositories about statistics before 2019",
+    "ground_truth": {
+      "q": "statistics language:R created:<2019-01-01",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  },
+  {
+    "id": "case_30",
+    "input": "Find repositories about cybersecurity with fewer than 500 stars",
+    "ground_truth": {
+      "q": "cybersecurity stars:<500",
+      "sort": "stars",
+      "order": "desc",
+      "per_page": "10"
+    }
+  }
+]
