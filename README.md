@@ -67,7 +67,7 @@ This endpoint accepts query parameters such as:
 - per_page
 ```
 
-More information on the format structure are listed in this link:
+More information about the request format is available in the official GitHub API documentation:
 
 ```text
 https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-repositories
@@ -1610,7 +1610,7 @@ This is more fair than directly repairing the prediction because the final corre
 
 ### Learnings
 
-#### 1. The evaluation design is subjective but had to be well-thought-of
+#### 1. The evaluation design is partly subjective, so the scoring rules have to be carefully justified
 
 At first, it seemed like the main task was just to call three models and check their outputs to compare them against each other. However, the harder part was designing a fair evaluation method. As there is no specific rules to how we should personally score these outputs, and build the ground truths, the scorer had to be strict enough to catch real mistakes, but also flexible enough to avoid penalizing formatting differences as each LLM has their own way of understanding prompts.
 
@@ -1634,7 +1634,7 @@ or more precisely as:
 created:>2021-12-31
 ```
 
-For this project, I decided to define one consistent interpretation and use it across all models. After deciding to define one interpretation, I think that the format we created should be specified strictly in the prompt to make answers more uniformed.
+For this project, I decided to define one consistent interpretation and use it across all models. After deciding to define one interpretation, I think that the format we created should be specified strictly in the prompt to make answers more uniformed and consistent.
 
 #### 3. Small structured-output differences can change API behavior
 
@@ -1678,7 +1678,7 @@ Qwen and Mistral were able to pass the 85% threshold, but they needed more evalu
 
 #### 6. The evaluation pipeline itself is part of the system as a whole
 
-This project showed that model performance is not only about improving the model. The prompt, schema, scorer, normalization, validation, and retry logic all affect final accuracy. Building a rigorous evaluation pipeline means documenting all of these choices clearly, and makes it more uniformed for any model that would be used.
+This project showed that model performance is not only about improving the model. The prompt, schema, scorer, normalization, validation, and retry logic all affect final accuracy. Building a rigorous evaluation pipeline means documenting all of these choices clearly, and makes it more consistent for any model that would be used.
 
 ---
 
